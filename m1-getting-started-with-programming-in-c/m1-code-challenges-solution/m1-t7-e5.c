@@ -16,12 +16,12 @@ int main() {
     scanf("%f", &radius);
 
     puts("\nCalculating radius...");
-    usleep(500000);
+    usleep(400000);
 
     area = PI * radius * radius;
 
     printf("The area of the circle is: %.2f sq. cm.\n\n", area);
-    usleep(500000);
+    usleep(400000);
 
     puts("**************************");
     puts("--------THANK YOU---------");
