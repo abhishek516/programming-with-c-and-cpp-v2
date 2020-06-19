@@ -12,7 +12,7 @@ int main() {
 
     switch (grade) {
         case 'A':
-            puts("Excellent! Keep it up.");
+            puts("Excellent.");
             break;
         case 'B':
             puts("Very good! Keep it up.");
