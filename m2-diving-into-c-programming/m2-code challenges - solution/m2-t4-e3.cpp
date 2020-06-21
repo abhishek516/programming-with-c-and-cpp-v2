@@ -8,10 +8,10 @@ int main() {
 
     /* While loop to get user input and find the largest number. */
     while (i < 10) {
-        printf("Enter number %d:", i + 1);
+        printf("Enter number %d:", ++i);
         scanf("%d", &a[i]);
 
-        /* If the current number (i.e. a[i]) entered by user is greater than the last value of ‘largest’ variable then the current number (a[i]) becomes the new largest number. */
+        /* If the current number (i.e. a[i]) entered by user is greater than the last value of â€˜largestâ€™ variable then the current number (a[i]) becomes the new largest number. */
         if (a[i] > largest)
             largest = a[i];
 
